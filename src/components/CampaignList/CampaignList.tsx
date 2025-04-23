@@ -49,6 +49,7 @@ const CampaignList: React.FC = () => {
           type="text"
           placeholder="Filter by title"
           value={filters.title}
+          defaultValue={filters.title}
           onChange={(e) => setFilters({...filters, title: e.target.value})}
         />
         <input
